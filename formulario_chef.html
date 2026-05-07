@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+    	<title>Cadastro de Receita</title>
+	</head>
+
+	<body>
+
+		<form>
+
+			<fieldset>
+
+			<legend>Cadastro de Receita</legend>
+
+            <label>
+            Nome da receita:
+            <input type="text" name="receita" size="30" maxlength="50">
+            </label>
+
+            <br>
+            <br>
+
+            <label for="categoria">
+            Categoria:
+            </label>
+
+            <select id="categoria" name="categoria">
+
+            <option value="sobremesa">Sobremesa</option>
+
+            <option value="salgado">Salgado</option>
+
+            <option value="fitness">Fitness</option>
+
+            <option value="bebida">Bebida</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <label for="ingredientes">
+            Ingredientes:
+            </label>
+
+            <br>
+
+            <textarea id="ingredientes"
+            name="ingredientes"
+            rows="5"
+            cols="40">
+            </textarea>
+
+            <br>
+            <br>
+
+            Tempo de preparo:
+
+            <br>
+
+            <label>
+            <input type="radio" name="tempo" value="rapido">
+            Rápido
+            </label>
+
+            <br>
+
+            <label>
+            <input type="radio" name="tempo" value="medio">
+            Médio
+            </label>
+
+            <br>
+
+            <label>
+            <input type="radio" name="tempo" value="longo">
+            Longo
+            </label>
+
+            <br>
+            <br>
+
+            <label for="dificuldade">
+            Dificuldade:
+            </label>
+
+            <select id="dificuldade" name="dificuldade">
+
+            <option value="facil">Fácil</option>
+
+            <option value="media">Média</option>
+
+            <option value="dificil">Difícil</option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <label>
+            <input type="checkbox" name="saudavel">
+            Receita saudável
+            </label>
+
+            <br>
+            <br>
+
+            <label for="comentarios">
+            Comentários:
+            </label>
+
+            <br>
+
+            <textarea id="comentarios"
+            name="comentarios"
+            rows="4"
+            cols="40">
+            </textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" value="ENVIAR">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
